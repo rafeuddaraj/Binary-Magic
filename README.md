@@ -108,3 +108,66 @@ Let’s take the case where the user thinks of the number **17**.
 This game allows users to use their own mental calculations to play and let the system guess their thought number using simple binary-based logic. It is an interactive and engaging game that illustrates the power of binary number systems in a practical way.
 
 ![Simulation Binary Magic Game](/public/simulation.png)
+
+
+
+> I was inspired by this video of [Rafa](https://www.facebook.com/share/v/1DGiHhZPQ5/) and basically built this game. I had some free time and had some fun.
+
+
+
+## 🛠 Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rafeuddaraj/Binary-Magic.git
+   ```
+
+2. Navigate into the project directory:
+   ```bash
+   cd Binary-Magic
+   ```
+
+3. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+
+4. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+
+5. Open your browser and go to `http://localhost:3000`.
+
+## 🧑‍💻 Contributing
+
+We welcome contributions from everyone! To contribute:
+
+1. **Fork** this repository to your GitHub account.
+2. **Clone** your forked repository to your local machine.
+   ```bash
+   git clone https://github.com/rafeuddaraj/Binary-Magic.git
+   ```
+3. Create a **new branch** for your changes:
+   ```bash
+   git checkout -b feature/my-awesome-feature
+   ```
+4. Make your changes and **commit** them:
+   ```bash
+   git add .
+   git commit -m "Add feature: My awesome feature"
+   ```
+5. Push your changes to your forked repository:
+   ```bash
+   git push origin feature/my-awesome-feature
+   ```
+6. Create a **Pull Request** (PR) from your forked repository to the main repository.
+
+### Guidelines
+
+- Write clear and concise commit messages.
+- Follow the existing code style.
+- Make sure to add tests for new features or bug fixes.
+
