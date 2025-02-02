@@ -17,7 +17,6 @@ export default function CardSelection() {
     currentCardIndex,
   } = useMagic();
 
-
   return (
     <div
       className={`min-h-screen w-full  dark:bg-gray-900 bg-gray-100 p-4 sm:p-6 md:p-8 flex items-center justify-center transition-colors duration-300`}
@@ -29,9 +28,9 @@ export default function CardSelection() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -50 }}
           transition={{ duration: 0.5 }}
-          className="mx-auto w-5/6 flex"
+          className="mx-auto w-5/6 flex flex-col md:flex-row md:items-center"
         >
-          <div className="w-[25%]">
+          <div className="md:w-[25%]">
             <Image
               className="scale-x-[-1]"
               src={"/present.png"}
@@ -41,7 +40,7 @@ export default function CardSelection() {
             />
           </div>
           <Card
-            className={`dark:bg-gray-800 dark:text-white  bg-white text-gray-900 shadow-xl transition-colors duration-300 cursor-pointer w-3/4`}
+            className={`dark:bg-gray-800 dark:text-white  bg-white text-gray-900 shadow-xl transition-colors duration-300 cursor-pointer md:w-3/4`}
             onClick={() => onToggleCardSelection(currentCard.id)}
           >
             <CardHeader>
