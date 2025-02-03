@@ -57,7 +57,7 @@ export default function CardSelection() {
             <CardContent>
               <div className="grid gap-4">
                 {currentCard.numbers.map((row, rowIndex) => (
-                  <div key={rowIndex} className="grid grid-cols-5 gap-2">
+                  <div key={rowIndex} className="grid grid-cols-4 gap-2">
                     {row.map((number) => (
                       <motion.div
                         key={number}
