@@ -109,7 +109,7 @@ This game allows users to use their own mental calculations to play and let the 
 
 ![Simulation Binary Magic Game](/public/simulation.png)
 
-
+[Video](https://www.facebook.com/rafeuddaraj1/videos/1126888772479894)
 
 > I was inspired by this video of [Rafa](https://www.facebook.com/share/v/1DGiHhZPQ5/) and basically built this game. I had some free time and had some fun.
 
